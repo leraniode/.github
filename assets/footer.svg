@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Leraniode footer">
+  <title>Leraniode footer</title>
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="oklch(0.59 0.247909 297)"/>
+      <stop offset="55%"  stop-color="oklch(0.8 0.142759 205)"/>
+      <stop offset="100%" stop-color="oklch(0.8 0.142759 205 / 0)"/>
+    </linearGradient>
+  </defs>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800');
+    .wm  { font-family: Nunito, Verdana, sans-serif; font-weight: 700; font-size: 15px; letter-spacing: -0.005em; }
+    .cr  { font-family: 'Maple Mono', 'Courier New', monospace; font-size: 11px; }
+  </style>
+  <!-- thin gradient line top -->
+  <rect x="0" y="0" width="640" height="1.5" fill="url(#line)"/>
+  <!-- leraniode/ left -->
+  <text class="wm" x="0" y="34">
+    <tspan fill="oklch(0.66 0.208281 3)">lera</tspan><tspan fill="oklch(0.59 0.247909 297)">niode</tspan><tspan fill="oklch(0.8 0.142759 205)">/</tspan>
+  </text>
+  <!-- © 2026 right -->
+  <text class="cr" x="640" y="34" text-anchor="end" fill="oklch(0.35 0.03318 297)">© 2026</text>
+</svg>

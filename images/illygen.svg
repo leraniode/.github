@@ -1,0 +1,102 @@
+<svg viewBox="0 0 600 220"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     aria-label="Illygen">
+  <title>Illygen — leraniode/</title>
+
+  <defs>
+    <radialGradient id="glow" cx="20%" cy="40%" r="76%">
+      <stop offset="0%"   stop-color="oklch(0.59 0.247909 297 / 0.28)"/>
+      <stop offset="55%"  stop-color="oklch(0.37 0.198149 292 / 0.10)"/>
+      <stop offset="100%" stop-color="oklch(0.11 0.019469 297 / 0)"/>
+    </radialGradient>
+
+    <filter id="border-glow"
+            x="-20%" y="-40%"
+            width="140%" height="180%"
+            color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <clipPath id="art-clip">
+      <rect x="2" y="2" width="596" height="216" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&amp;family=Sora:wght@800');
+
+    .base {
+      fill: oklch(0.11 0.019469 297);
+    }
+
+    .attr {
+      font-family: Nunito, Verdana, sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: -0.005em;
+    }
+
+    .name {
+      font-family: Sora, sans-serif;
+      font-weight: 800;
+      font-size: 96px;
+      letter-spacing: -0.04em;
+      fill: oklch(0.59 0.247909 297);
+    }
+
+    .t-lera {
+      fill: oklch(0.66 0.208281 3);
+    }
+
+    .t-niode {
+      fill: oklch(0.59 0.247909 297);
+    }
+
+    .t-clarity {
+      fill: oklch(0.8 0.142759 205);
+    }
+  </style>
+
+  <rect
+    x="2" y="2"
+    width="596" height="216"
+    rx="16"
+    class="base"
+  />
+
+  <g clip-path="url(#art-clip)">
+    <rect
+      width="600"
+      height="220"
+      fill="url(#glow)"
+    />
+
+    <text class="attr" x="32" y="38">
+      <tspan class="t-lera">lera</tspan><tspan
+        class="t-niode">niode</tspan><tspan
+        class="t-clarity">/</tspan>
+    </text>
+
+    <text class="name" x="28" y="172">Illygen</text>
+  </g>
+
+  <rect
+    x="2" y="2"
+    width="596" height="216"
+    rx="16"
+    fill="none"
+    stroke="oklch(0.59 0.247909 297 / 0.55)"
+    stroke-width="2"
+    filter="url(#border-glow)"
+  />
+
+  <rect
+    x="2" y="2"
+    width="596" height="216"
+    rx="16"
+    fill="none"
+    stroke="oklch(0.59 0.247909 297 / 0.48)"
+    stroke-width="1"
+  />
+</svg>

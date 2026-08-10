@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leraniode — Palette Showcase</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Nunito:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./palette.css" />
+  </head>
+  <body>
+    <div class="label">leraniode / glitter — palette</div>
+    <div class="title">
+      <span class="l">Lera</span><span class="n">niode</span> Palette
+    </div>
+    <p class="sub">Three identity spectrums · Unique names · Dark neutrals</p>
+
+    <div class="identity-strip"></div>
+
+    <!-- IDENTITY FAMILIES -->
+    <div class="label">Identity spectrums</div>
+    <div class="families">
+      <!-- LERA -->
+      <div class="family">
+        <div class="family-head">
+          <div class="family-name" style="color: var(--lera)">Lera</div>
+          <div class="family-desc">Pink · petal → rose</div>
+        </div>
+        <div class="swatches">
+          <div class="swatch" style="background: var(--lera-petal)">
+            <div class="sname on-light">petal</div>
+          </div>
+          <div class="swatch" style="background: var(--lera-bloom)">
+            <div class="sname on-light">bloom</div>
+          </div>
+          <div class="swatch" style="background: var(--lera)">
+            <div class="core-pip"></div>
+            <div class="sname on-dark">lera ✦</div>
+          </div>
+          <div class="swatch" style="background: var(--lera-flush)">
+            <div class="sname on-dark">flush</div>
+          </div>
+          <div class="swatch" style="background: var(--lera-rose)">
+            <div class="sname on-dark">rose</div>
+          </div>
+        </div>
+        <div
+          class="grad-strip"
+          style="
+            background: linear-gradient(
+              90deg,
+              var(--lera-petal),
+              var(--lera-bloom),
+              var(--lera),
+              var(--lera-flush),
+              var(--lera-rose)
+            );
+          "
+        ></div>
+      </div>
+
+      <!-- NIODE -->
+      <div class="family">
+        <div class="family-head">
+          <div class="family-name" style="color: var(--niode)">Niode</div>
+          <div class="family-desc">Purple · lavender → void</div>
+        </div>
+        <div class="swatches">
+          <div class="swatch" style="background: var(--niode-lavender)">
+            <div class="sname on-light">lavender</div>
+          </div>
+          <div class="swatch" style="background: var(--niode-haze)">
+            <div class="sname on-dark">haze</div>
+          </div>
+          <div class="swatch" style="background: var(--niode)">
+            <div class="core-pip"></div>
+            <div class="sname on-dark">niode ✦</div>
+          </div>
+          <div class="swatch" style="background: var(--niode-dusk)">
+            <div class="sname on-dark">dusk</div>
+          </div>
+          <div class="swatch" style="background: var(--niode-void)">
+            <div class="sname on-dark">void</div>
+          </div>
+        </div>
+        <div
+          class="grad-strip"
+          style="
+            background: linear-gradient(
+              90deg,
+              var(--niode-lavender),
+              var(--niode-haze),
+              var(--niode),
+              var(--niode-dusk),
+              var(--niode-void)
+            );
+          "
+        ></div>
+      </div>
+
+      <!-- CLARITY -->
+      <div class="family">
+        <div class="family-head">
+          <div class="family-name" style="color: var(--clarity-sky)">
+            Clarity
+          </div>
+          <div class="family-desc">Cyan-to-blue · tide → deep</div>
+        </div>
+        <div class="swatches">
+          <div class="swatch" style="background: var(--clarity-tide)">
+            <div class="sname on-light">tide</div>
+          </div>
+          <div class="swatch" style="background: var(--clarity-sky)">
+            <div class="core-pip"></div>
+            <div class="sname on-light">sky ✦</div>
+          </div>
+          <div class="swatch" style="background: var(--clarity-mist)">
+            <div class="sname on-dark">mist</div>
+          </div>
+          <div class="swatch" style="background: var(--clarity-sapphire)">
+            <div class="sname on-dark">sapphire</div>
+          </div>
+          <div class="swatch" style="background: var(--clarity-deep)">
+            <div class="sname on-dark">deep</div>
+          </div>
+        </div>
+        <div
+          class="grad-strip"
+          style="
+            background: linear-gradient(
+              90deg,
+              var(--clarity-tide),
+              var(--clarity-sky),
+              var(--clarity-mist),
+              var(--clarity-sapphire),
+              var(--clarity-deep)
+            );
+          "
+        ></div>
+      </div>
+    </div>
+
+    <!-- ACCENTS -->
+    <div class="section">
+      <div class="label">Accents</div>
+
+      <div class="accent-strip"></div>
+
+      <div class="accents-grid">
+        <div class="accent">
+          <div class="accent-color" style="background: var(--frost)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--frost)">frost</div>
+            <div class="accent-hex">oklch(0.8 0.09455 195)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--streak)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--streak)">streak</div>
+            <div class="accent-hex">oklch(0.7 0.1068 230)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--arc)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--arc)">arc</div>
+            <div class="accent-hex">oklch(0.6 0.185686 250)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--void)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--void)">void</div>
+            <div class="accent-hex">oklch(0.5 0.1975 270)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--grove)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--grove)">grove</div>
+            <div class="accent-hex">oklch(0.76 0.208042 142)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--sol)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--sol)">sol</div>
+            <div class="accent-hex">oklch(0.82 0.158115 88)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--dusk)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--dusk)">dusk</div>
+            <div class="accent-hex">oklch(0.74 0.156989 55)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--blaze)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--blaze)">blaze</div>
+            <div class="accent-hex">oklch(0.6 0.177035 38)</div>
+          </div>
+        </div>
+        <div class="accent">
+          <div class="accent-color" style="background: var(--ember)"></div>
+          <div class="accent-info">
+            <div class="accent-name" style="color: var(--ember)">ember</div>
+            <div class="accent-hex">oklch(0.62 0.224173 25)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEUTRALS -->
+    <div class="section">
+      <div class="label">Neutral scale — ink through abyss</div>
+      <div class="neutrals">
+        <div class="neutral" style="background: var(--ink)">
+          <div class="nname dark">ink</div>
+        </div>
+        <div class="neutral" style="background: var(--mute)">
+          <div class="nname dark">mute</div>
+        </div>
+        <div class="neutral" style="background: var(--ash)">
+          <div class="nname dark">ash</div>
+        </div>
+        <div class="neutral" style="background: var(--dim)">
+          <div class="nname light">dim</div>
+        </div>
+        <div class="neutral" style="background: var(--haze)">
+          <div class="nname light">haze</div>
+        </div>
+        <div class="neutral" style="background: var(--ghost)">
+          <div class="nname light">ghost</div>
+        </div>
+        <div class="neutral" style="background: var(--rim)">
+          <div class="nname light">rim</div>
+        </div>
+        <div class="neutral" style="background: var(--shell)">
+          <div class="nname light">shell</div>
+        </div>
+        <div class="neutral" style="background: var(--veil)">
+          <div class="nname light">veil</div>
+        </div>
+        <div class="neutral" style="background: var(--slate)">
+          <div class="nname light">slate</div>
+        </div>
+        <div class="neutral" style="background: var(--deep)">
+          <div class="nname light">deep</div>
+        </div>
+        <div
+          class="neutral"
+          style="background: var(--abyss); border-right: 1px solid var(--rim)"
+        >
+          <div class="nname light">abyss</div>
+        </div>
+      </div>
+      <div
+        style="
+          font-size: 9px;
+          color: var(--ghost);
+          margin-top: 8px;
+          letter-spacing: 0.1em;
+        "
+      >
+        hover any swatch to reveal its name
+      </div>
+    </div>
+
+    <!-- ALL TONES SUMMARY -->
+    <div class="section">
+      <div class="label">Full palette summary — 24 tones</div>
+      <div class="all-tones">
+        <div
+          class="pip"
+          style="background: var(--lera-petal)"
+          title="lera.petal"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--lera-bloom)"
+          title="lera.bloom"
+        ></div>
+        <div
+          class="pip core"
+          style="background: var(--lera)"
+          title="lera ✦"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--lera-flush)"
+          title="lera.flush"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--lera-rose)"
+          title="lera.rose"
+        ></div>
+        <div class="divider"></div>
+        <div
+          class="pip"
+          style="background: var(--niode-lavender)"
+          title="niode.lavender"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--niode-haze)"
+          title="niode.haze"
+        ></div>
+        <div
+          class="pip core"
+          style="background: var(--niode)"
+          title="niode ✦"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--niode-dusk)"
+          title="niode.dusk"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--niode-void)"
+          title="niode.void"
+        ></div>
+        <div class="divider"></div>
+        <div
+          class="pip"
+          style="background: var(--clarity-tide)"
+          title="clarity.tide"
+        ></div>
+        <div
+          class="pip core"
+          style="background: var(--clarity-sky)"
+          title="clarity.sky ✦"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--clarity-mist)"
+          title="clarity.mist"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--clarity-sapphire)"
+          title="clarity.sapphire"
+        ></div>
+        <div
+          class="pip"
+          style="background: var(--clarity-deep)"
+          title="clarity.deep"
+        ></div>
+        <div class="divider"></div>
+        <div class="pip" style="background: var(--ember)" title="ember"></div>
+        <div class="pip" style="background: var(--blaze)" title="blaze"></div>
+        <div class="pip" style="background: var(--dusk)" title="dusk"></div>
+        <div class="pip" style="background: var(--sol)" title="sol"></div>
+        <div class="pip" style="background: var(--grove)" title="grove"></div>
+        <div class="divider"></div>
+        <div class="pip" style="background: var(--frost)" title="frost"></div>
+        <div class="pip" style="background: var(--streak)" title="streak"></div>
+        <div class="pip" style="background: var(--arc)" title="arc"></div>
+        <div class="pip" style="background: var(--void)" title="void"></div>
+      </div>
+      <div
+        style="
+          font-size: 9px;
+          color: var(--ghost);
+          margin-top: 10px;
+          letter-spacing: 0.1em;
+        "
+      >
+        ✦ core identity tone · hover to see name · neutrals not shown
+      </div>
+    </div>
+
+    <div class="footer">
+      <span>leraniode / glitter · palette v0.1.0 · OKLCH</span>
+      <span class="cursor">/</span>
+    </div>
+  </body>
+</html>

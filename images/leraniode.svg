@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 400"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     aria-label="Leraniode">
+  <title>Leraniode</title>
+
+  <defs>
+    <linearGradient id="mark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="oklch(0.37 0.198149 292)"/>
+      <stop offset="38%"  stop-color="oklch(0.59 0.247909 297)"/>
+      <stop offset="68%"  stop-color="oklch(0.66 0.208281 3)"/>
+      <stop offset="90%"  stop-color="oklch(0.8 0.142759 205)"/>
+      <stop offset="100%" stop-color="oklch(0.7 0.135946 220)"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800');
+
+    .wm {
+      font-family: Nunito, Verdana, sans-serif;
+      font-weight: 700;
+      font-size: 64px;
+      letter-spacing: -0.01em;
+    }
+  </style>
+
+  <!-- Gradient L mark -->
+  <path
+    d="
+      M 20,16
+      Q 16,16 16,20
+      L 16,180
+      Q 16,184 20,184
+      L 180,184
+      Q 184,184 184,180
+      L 184,154
+      Q 184,150 180,150
+      L 94,150
+      Q 68,150 68,124
+      L 68,20
+      Q 68,16 64,16
+      Z
+    "
+    transform="translate(148,110) scale(0.75)"
+    fill="url(#mark)"
+  />
+
+  <!-- Wordmark -->
+  <text class="wm" x="310" y="210">
+    <tspan fill="oklch(0.66 0.208281 3)">lera</tspan><tspan
+      fill="oklch(0.59 0.247909 297)">niode</tspan><tspan
+      fill="oklch(0.8 0.142759 205)">/</tspan>
+  </text>
+</svg>
