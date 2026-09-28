@@ -1,6 +1,6 @@
 <p align="center">
     <img
-        src="../images/leraniode_grad.svg"
+        src="../images/leraniode.svg"
         alt="Leraniode Logo"
         width="1024"
     />
@@ -9,5 +9,5 @@
 <h1 align="center">Leraniode/</h1>
 
 <p align="center">
-    <em>Beauty. Functionality. Lively.</em>
+    <em>deliberate edge of software</em>
 </p>
