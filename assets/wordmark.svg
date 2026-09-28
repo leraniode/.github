@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">leraniode/ wordmark</title>
+  <title id="title">leraniode wordmark</title>
   <desc id="desc">Leraniode wordmark in the Leraniode cyan, blue, violet and pink palette on an atmospheric dark background.</desc>
 
   <defs>
@@ -111,10 +111,9 @@
     rx="36"
     filter="url(#grain)"/>
 
-  <!-- Wordmark, moved toward the lower-right -->
   <text
-    x="1140"
-    y="232"
+    x="1090"
+    y="205"
     text-anchor="end"
     font-family="Nunito"
     font-size="108"
@@ -124,8 +123,8 @@
 
   <!-- Subtle wordmark sheen -->
   <text
-    x="1140"
-    y="232"
+    x="1090"
+    y="205"
     text-anchor="end"
     font-family="Nunito"
     font-size="108"
@@ -135,7 +134,7 @@
     opacity=".45">leraniode</text>
 
   <!-- Small signature dots -->
-  <circle cx="1020" cy="258" r="2.5" fill="#1ba09a"/>
-  <circle cx="1038" cy="258" r="2.5" fill="#4d85fd"/>
-  <circle cx="1056" cy="258" r="2.5" fill="#e33bb3"/>
+  <circle cx="970" cy="231" r="2.5" fill="#1ba09a"/>
+  <circle cx="988" cy="231" r="2.5" fill="#4d85fd"/>
+  <circle cx="1006" cy="231" r="2.5" fill="#e33bb3"/>
 </svg>
