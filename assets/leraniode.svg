@@ -1,13 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" role="img" aria-labelledby="title desc">
   <title id="title">Leraniode mark and wordmark</title>
-  <desc id="desc">The Leraniode symbol paired with the leraniode wordmark on a dark atmospheric background.</desc>
+  <desc id="desc">The Leraniode symbol paired with the leraniode wordmark on the corner-flow billboard background.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050912"/>
-      <stop offset=".34" stop-color="#0b1722"/>
-      <stop offset=".68" stop-color="#101027"/>
-      <stop offset="1" stop-color="#16091b"/>
-    </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#1ba09a"/>
       <stop offset=".25" stop-color="#0c9ac3"/>
@@ -15,29 +9,36 @@
       <stop offset=".75" stop-color="#a861f2"/>
       <stop offset="1" stop-color="#e33bb3"/>
     </linearGradient>
-    <radialGradient id="a" cx="22%" cy="45%" r="48%">
-      <stop offset="0" stop-color="#1ba09a" stop-opacity=".24"/>
-      <stop offset="1" stop-color="#050912" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="b" cx="82%" cy="55%" r="52%">
-      <stop offset="0" stop-color="#e33bb3" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#050912" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="45"/></filter>
-    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="2" seed="8"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer>
-    </filter>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2.5" fill="#020202"/>
+    </pattern>
+    <linearGradient id="wedgeL" x1="0" y1="0" x2=".55" y2=".65">
+      <stop offset="0" stop-color="#a861f2"/>
+      <stop offset=".35" stop-color="#301c47"/>
+      <stop offset="1" stop-color="#301c47" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wedgeR" x1="1" y1="0" x2=".45" y2=".65">
+      <stop offset="0" stop-color="#e33bb3"/>
+      <stop offset=".35" stop-color="#401534"/>
+      <stop offset="1" stop-color="#401534" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2=".55" y2=".65">
+      <stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="1" y1="0" x2=".45" y2=".65">
+      <stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mL"><rect width="1400" height="700" fill="url(#fadeL)"/></mask>
+    <mask id="mR"><rect width="1400" height="700" fill="url(#fadeR)"/></mask>
   </defs>
 
-  <rect width="1400" height="700" rx="48" fill="url(#bg)"/>
-  <circle cx="250" cy="330" r="280" fill="url(#a)" filter="url(#blur)"/>
-  <circle cx="1160" cy="360" r="280" fill="url(#b)" filter="url(#blur)"/>
-  <path d="M-60 590 C250 370 455 690 760 486 S1180 280 1460 420"
-        fill="none" stroke="url(#accent)" stroke-opacity=".13" stroke-width="2"/>
-  <path d="M-50 635 C245 420 462 720 790 520 S1195 332 1460 465"
-        fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
-  <rect width="1400" height="700" rx="48" filter="url(#grain)"/>
+  <rect width="1400" height="700" rx="48" fill="#020202"/>
+  <g clip-path="inset(0 round 48)">
+    <rect width="1400" height="700" fill="url(#wedgeL)"/>
+    <rect width="1400" height="700" fill="url(#wedgeR)"/>
+    <rect width="1400" height="700" fill="url(#dots)" mask="url(#mL)" opacity=".75"/>
+    <rect width="1400" height="700" fill="url(#dots)" mask="url(#mR)" opacity=".75"/>
+  </g>
 
   <g transform="translate(165 120) scale(.82) translate(-14.25 -1) rotate(16 231.25 243)">
     <path d="
