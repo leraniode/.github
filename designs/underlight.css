@@ -30,7 +30,7 @@
   --ul-p: 0;
   --ul-m: 1;
   --ul-n: 1;
-  --ul-tex: url(grain.webp);
+  --ul-tex: url("../assets/grain.webp");
   color-scheme: dark;
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
