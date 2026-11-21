@@ -1,6 +1,6 @@
 <p align="center">
     <img
-        src="../images/leraniode.png"
+        src="https://raw.githubusercontent.com/leraniode/metabox/main/images/leraniode.png"
         alt="Leraniode Logo"
         width="1024"
     />

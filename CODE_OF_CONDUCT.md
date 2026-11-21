@@ -24,7 +24,7 @@ Examples of unacceptable behavior include:
 
 Instances of unacceptable behavior may be reported to the org maintainers:
 
-**Email:** dominionthedeveloper@gmail.com
+**Email:** leraniode@gmail.com
 
 All complaints will be reviewed and responded to **promptly and confidentially**.
 
@@ -32,9 +32,9 @@ All complaints will be reviewed and responded to **promptly and confidentially**
 
 Depending on severity, enforcement actions may include:
 
-- Warnings
-- Temporary or permanent bans from contributions or community spaces
+- Permanent bans from contributions or community spaces
 - Removal of inappropriate content
+- Legal confinement from Leraniode and its relations
 
 ## Attribution
 
